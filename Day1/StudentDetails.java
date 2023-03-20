@@ -33,7 +33,7 @@ class Student {
 public class StudentDetails {
 
     Scanner s = new Scanner(System.in);
-    Object students[] = new Object[2];
+    Student students[] = new Student[2];
 
     public void setStudentDetails() {
         for (int i = 0; i < students.length; i++) {
@@ -57,7 +57,7 @@ public class StudentDetails {
             Student student = (Student) students[i];
             System.out.println("Student id: " + student.getRollNo());
             System.out.println("Student name: " + student.getSname());
-            System.out.println("Student email: " + student.getRollNo());
+            System.out.println("Student department: " + student.getRollNo());
         }
     }
 
